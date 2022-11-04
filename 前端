@@ -1,51 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T03:01:59.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="BQ6_Vq56HGFIosCMdDFp" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T09:44:17.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="N-uw8og7jHYKcM3BG2N-" version="20.5.1" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-    <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2296" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3" value="Fulfillment" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="662" y="345.5" width="220" height="60" as="geometry" />
+        <mxCell id="3" value="Fulfillment" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="662" y="250" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Shipper" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="390" y="455.5" width="200" height="60" as="geometry" />
+        <mxCell id="4" value="    Shipper" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="420" y="430" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="FMS" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="950" y="455.5" width="200" height="60" as="geometry" />
+        <mxCell id="5" value="     FMS" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="672" y="430" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="30" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="3" target="5" edge="1">
-          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
-            <mxPoint x="22" y="265.5" as="sourcePoint" />
-            <mxPoint x="122" y="165.5" as="targetPoint" />
+          <mxGeometry x="22" y="125.5" width="100" height="100" as="geometry">
+            <mxPoint x="22" y="225.5" as="sourcePoint" />
+            <mxPoint x="122" y="125.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="31" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="3" target="4" edge="1">
-          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
-            <mxPoint x="22" y="265.5" as="sourcePoint" />
-            <mxPoint x="122" y="165.5" as="targetPoint" />
+          <mxGeometry x="22" y="125.5" width="100" height="100" as="geometry">
+            <mxPoint x="22" y="225.5" as="sourcePoint" />
+            <mxPoint x="122" y="125.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HNc4vHShNSFVkwHenMgc-65" value="&lt;h1&gt;Fulfillment&lt;/h1&gt;&lt;p&gt;同时兼具Order和Shipment，丰富的功能既能满足用户整个订单周期的管理&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="677" y="200" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="HNc4vHShNSFVkwHenMgc-68" value="&lt;h1&gt;Shipper&lt;/h1&gt;&lt;p&gt;主要以Order为核心，适用于小型电商卖家&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="440" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="HNc4vHShNSFVkwHenMgc-69" value="&lt;h1&gt;FMS&lt;/h1&gt;&lt;p&gt;主要以Shipment为核心，主要聚焦于发货任务&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="425.5" width="190" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="HNc4vHShNSFVkwHenMgc-133" value="Addons" style="swimlane;strokeWidth=1;fontSize=20;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="170" y="640" width="880" height="460" as="geometry">
+          <mxGeometry x="160" y="780" width="775" height="340" as="geometry">
             <mxRectangle x="320" y="660" width="110" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;PRINT BARCODE&lt;/font&gt;" link="https://partner.eiz.com.au/print-barcode/index.html" id="HNc4vHShNSFVkwHenMgc-142">
-          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
-            <mxGeometry x="330" y="163" width="140" height="40" as="geometry" />
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;PRINT BARCODE&lt;br&gt;(WEB + APP)&lt;br&gt;&lt;/font&gt;" link="https://partner.eiz.com.au/print-barcode/index.html" id="HNc4vHShNSFVkwHenMgc-142">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
+            <mxGeometry x="317.5" y="153" width="140" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="HNc4vHShNSFVkwHenMgc-157" value="WEB项目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontSize=14;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
-          <mxGeometry x="80" y="60" width="210" height="246" as="geometry" />
+        <mxCell id="HNc4vHShNSFVkwHenMgc-157" value="WEB项目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#0050ef;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontSize=14;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
+          <mxGeometry x="50" y="80" width="210" height="246" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;CHEWY&lt;/font&gt;" link="https://partner.eiz.com.au/chewy/index.html" id="HNc4vHShNSFVkwHenMgc-144">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-157">
@@ -77,8 +68,8 @@
             <mxGeometry y="216" width="210" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="HNc4vHShNSFVkwHenMgc-212" value="APP项目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#C27DFF;strokeWidth=1;fontSize=14;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
-          <mxGeometry x="520" y="60" width="210" height="206" as="geometry" />
+        <mxCell id="HNc4vHShNSFVkwHenMgc-212" value="APP项目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontSize=14;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
+          <mxGeometry x="520" y="100" width="210" height="206" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;EIZ Inventory&lt;/font&gt;" link="https://eiz.com.au/inventoryApp/" id="HNc4vHShNSFVkwHenMgc-135">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-212">
@@ -105,6 +96,69 @@
             <mxGeometry y="166" width="210" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-264" value="&lt;span style=&quot;font-size: 14px; font-weight: 400; text-align: left;&quot;&gt;Addons 中的每一个项目都是一个独立的项目,可以在其它项目中订阅一个或多个&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeWidth=1;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
+          <mxGeometry x="120" y="20" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-238" value="Tracking" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="995" y="780" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-249" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#C27DFF;strokeWidth=1;fontSize=14;image=https://eiz.com.au/wp-content/themes/neweiztheme/public/assets/images/logo-tracking.svg;" vertex="1" parent="1">
+          <mxGeometry x="1024" y="794" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-251" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#C27DFF;strokeWidth=1;fontSize=14;image=https://eiz.com.au/wp-content/themes/neweiztheme/public/assets/images/logo-shipper.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="444" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-255" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;主要以Order为核心，适用于小型电商卖家,&lt;/font&gt;&lt;/span&gt;集成 40 多家国内和国际运输公司和销售平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="521" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-258" value="&lt;span style=&quot;text-align: left;&quot;&gt;跟踪和监控每批货物，获取详细的交付报告，优化未来交付以提高客户满意度，按状态、承运人和持续时间跟踪包裹，导出 CSV 数据&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="985" y="890" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-259" value="主要以Shipment为核心，聚焦于发货任务,集成 20 多家国内和国际运输公司" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="672" y="519" width="188" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-260" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#C27DFF;strokeWidth=1;fontSize=14;image=https://eiz.com.au/wp-content/themes/neweiztheme/public/assets/images/logo-fulfillment.svg;" vertex="1" parent="1">
+          <mxGeometry x="690" y="264" width="33" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-261" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;专为专业的在线业务而设计。一个完整的端到端电子商务履行解决方案，集成了Order和Shipment、Tracking、库存和拣货和包装管理等&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="632" y="150" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-262" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#C27DFF;strokeWidth=1;fontSize=14;image=https://eiz.com.au/wp-content/themes/neweiztheme/public/assets/images/logo-fms.svg;" vertex="1" parent="1">
+          <mxGeometry x="700" y="444" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-265" value="        Superfreight" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="925" y="430" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-266" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#C27DFF;strokeWidth=1;fontSize=14;image=https://superfreight.com.au/app/assets/images/logos/eiz-logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="944" y="435" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-267" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=1;strokeWidth=4;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="772" y="310" as="sourcePoint" />
+            <mxPoint x="1033" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="903" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-272" value="全球电子商务的一站式运输平台。连接您的商店，提供 13 多种运输解决方案,在一个仪表板中管理从获取报价到跟踪的运输的各个方面,适用于任何规模的企业" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="890" y="503.5" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-275" value="&lt;br&gt;为&lt;br&gt;主&lt;br&gt;产&lt;br&gt;品&lt;br&gt;服&lt;br&gt;务" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="790" y="600" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-276" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#33001A;strokeWidth=3;fontSize=14;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="580" y="750" width="510" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-282" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;EIZ APP" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#33001A;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="431" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-286" value="EIZ APP 后端搭建安卓框架,内置webview直接挂载前端项目地址以实现合作开发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="519" width="190" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-287" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#33001A;strokeWidth=2;fontSize=14;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMzUuNiAzMTQuNzsiIHZpZXdCb3g9IjAgMCAzMzUuNiAzMTQuNyIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwNzFFMzt9JiN4YTsJLnN0MXtmaWxsOiNGQ0I1MDA7fSYjeGE7PC9zdHlsZT4mI3hhOzxnPiYjeGE7CTxwYXRoIGQ9Ik0xOTkuMiw2M0gzMS41QzE0LjEsNjMsMCw0OC45LDAsMzEuNWwwLDBDMCwxNC4xLDE0LjEsMCwzMS41LDBoMTY3LjhjMTcuNCwwLDMxLjUsMTQuMSwzMS41LDMxLjVsMCwwJiMxMDsmIzk7JiM5O0MyMzAuNyw0OC45LDIxNi42LDYzLDE5OS4yLDYzeiIgY2xhc3M9InN0MCIvPiYjeGE7CTxwYXRoIGQ9Ik0xMTUuNCwxODguOEgzMS41QzE0LjEsMTg4LjgsMCwxNzQuNywwLDE1Ny4zbDAsMGMwLTE3LjQsMTQuMS0zMS41LDMxLjUtMzEuNWg4My45JiMxMDsmIzk7JiM5O2MxNy40LDAsMzEuNSwxNC4xLDMxLjUsMzEuNWwwLDBDMTQ2LjgsMTc0LjcsMTMyLjcsMTg4LjgsMTE1LjQsMTg4Ljh6IiBjbGFzcz0ic3QwIi8+JiN4YTsJPHBhdGggZD0iTTMxLjUsMjUxLjdMMzEuNSwyNTEuN0MxNC4xLDI1MS43LDAsMjY1LjgsMCwyODMuMmwwLDBjMCwxNy40LDE0LjEsMzEuNSwzMS41LDMxLjVsMCwwJiMxMDsmIzk7JiM5O2MxNy40LDAsMzEuNS0xNC4xLDMxLjUtMzEuNWwwLDBDNjIuOSwyNjUuOCw0OC44LDI1MS43LDMxLjUsMjUxLjd6IiBjbGFzcz0ic3QwIi8+JiN4YTsJPHBhdGggZD0iTTMwNC4xLDYzTDMwNC4xLDYzYzE3LjQsMCwzMS41LTE0LjEsMzEuNS0zMS41bDAsMGMwLTE3LjQtMTQuMS0zMS41LTMxLjUtMzEuNWwwLDAmIzEwOyYjOTsmIzk7Yy0xNy40LDAtMzEuNSwxNC4xLTMxLjUsMzEuNWwwLDBDMjcyLjYsNDguOSwyODYuNyw2MywzMDQuMSw2M3oiIGNsYXNzPSJzdDEiLz4mI3hhOwk8cGF0aCBkPSJNMjIwLjIsMTg4LjhoODMuOWMxNy40LDAsMzEuNS0xNC4xLDMxLjUtMzEuNWwwLDBjMC0xNy40LTE0LjEtMzEuNS0zMS41LTMxLjVoLTgzLjkmIzEwOyYjOTsmIzk7Yy0xNy40LDAtMzEuNSwxNC4xLTMxLjUsMzEuNWwwLDBDMTg4LjgsMTc0LjcsMjAyLjgsMTg4LjgsMjIwLjIsMTg4Ljh6IiBjbGFzcz0ic3QxIi8+JiN4YTsJPHBhdGggZD0iTTEzNi4zLDI1MS43aDE2Ny44YzE3LjQsMCwzMS41LDE0LjEsMzEuNSwzMS41bDAsMGMwLDE3LjQtMTQuMSwzMS41LTMxLjUsMzEuNUgxMzYuMyYjMTA7JiM5OyYjOTtjLTE3LjQsMC0zMS41LTE0LjEtMzEuNS0zMS41bDAsMEMxMDQuOSwyNjUuOCwxMTguOSwyNTEuNywxMzYuMywyNTEuN3oiIGNsYXNzPSJzdDEiLz4mI3hhOzwvZz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="445" width="32" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

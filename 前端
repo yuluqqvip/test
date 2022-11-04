@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T02:16:15.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="db0z2SPT7kehY9cY9l-5" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T03:01:59.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="BQ6_Vq56HGFIosCMdDFp" version="20.5.1" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -12,9 +12,6 @@
         </mxCell>
         <mxCell id="5" value="FMS" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="950" y="455.5" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Addons" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="672" y="570" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="30" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="3" target="5" edge="1">
           <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
@@ -37,6 +34,77 @@
         <mxCell id="HNc4vHShNSFVkwHenMgc-69" value="&lt;h1&gt;FMS&lt;/h1&gt;&lt;p&gt;主要以Shipment为核心，主要聚焦于发货任务&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1180" y="425.5" width="190" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-133" value="Addons" style="swimlane;strokeWidth=1;fontSize=20;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="170" y="640" width="880" height="460" as="geometry">
+            <mxRectangle x="320" y="660" width="110" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;PRINT BARCODE&lt;/font&gt;" link="https://partner.eiz.com.au/print-barcode/index.html" id="HNc4vHShNSFVkwHenMgc-142">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
+            <mxGeometry x="330" y="163" width="140" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-157" value="WEB项目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontSize=14;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
+          <mxGeometry x="80" y="60" width="210" height="246" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;CHEWY&lt;/font&gt;" link="https://partner.eiz.com.au/chewy/index.html" id="HNc4vHShNSFVkwHenMgc-144">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-157">
+            <mxGeometry y="26" width="210" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Temple &amp;amp; Webster Import&lt;/font&gt;" link="https://partner.eiz.com.au/tw/index.html" id="HNc4vHShNSFVkwHenMgc-140">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-157">
+            <mxGeometry y="66" width="210" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Orange Connex&lt;/font&gt;" link="https://eiz.com.au/oc/" id="HNc4vHShNSFVkwHenMgc-134">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-157">
+            <mxGeometry y="106" width="210" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Function test" link="https://3pl.eiz.com.au/test.html" id="HNc4vHShNSFVkwHenMgc-148">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-157">
+            <mxGeometry y="146" width="210" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Quick Create Label&lt;/font&gt;" link="https://partner.eiz.com.au/quick-create-label/index.html" id="HNc4vHShNSFVkwHenMgc-143">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-157">
+            <mxGeometry y="176" width="210" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Inbound" link="https://partner.eiz.com.au/inbound/index.html" id="HNc4vHShNSFVkwHenMgc-154">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-157">
+            <mxGeometry y="216" width="210" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="HNc4vHShNSFVkwHenMgc-212" value="APP项目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#C27DFF;strokeWidth=1;fontSize=14;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-133">
+          <mxGeometry x="520" y="60" width="210" height="206" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;EIZ Inventory&lt;/font&gt;" link="https://eiz.com.au/inventoryApp/" id="HNc4vHShNSFVkwHenMgc-135">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-212">
+            <mxGeometry y="26" width="210" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;SELF DELIVERY MANAGER&lt;/font&gt;" link="https://3pl.eiz.com.au/sdm" id="HNc4vHShNSFVkwHenMgc-145">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-212">
+            <mxGeometry y="66" width="210" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Print label by Reference" link="https://partner.eiz.com.au/ref-print/index.html" id="HNc4vHShNSFVkwHenMgc-153">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-212">
+            <mxGeometry y="106" width="210" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="WMS APP" link="http://3pl.eiz.com.au/wms" id="HNc4vHShNSFVkwHenMgc-147">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-212">
+            <mxGeometry y="136" width="210" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;UGT Fulfillment&lt;/font&gt;" link="http://pda.ugt.eiz.com.au/UGT/Services/scanAsn" id="HNc4vHShNSFVkwHenMgc-146">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="HNc4vHShNSFVkwHenMgc-212">
+            <mxGeometry y="166" width="210" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
